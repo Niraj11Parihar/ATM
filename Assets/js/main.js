@@ -64,7 +64,7 @@ function widthdraw() {
         result -= amount;
         document.getElementById("result").innerHTML = 'Your Account Balance is :' + result;
     } else {
-        alert("Please enter a valid amount for deposit.");
+        alert("Please enter a valid amount for widthdraw.");
     }
 }
 
