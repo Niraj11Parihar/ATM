@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style.css  -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <!-- utilities.css  -->
+    <link rel="stylesheet" href="Assets/css/utilities.css">
+</head>
+
+<body>
+    <center>
+        <section class="atm-page">
+            <div class="tv">
+                <div class="upper">
+                    <div class="screen-container">
+                        <div class="screen">
+                            <p class="result" id="result"></p>
+                            <input type="number" id="amount">
+                        </div>
+                    </div>
+                    <div class="controls-container">
+                        <div id="btn">
+                            <button onclick="widthdraw()">Widthdraw</button>
+                            <button onclick="deposit()">Deposit</button>
+                            <button onclick="balance()">Balance</button>
+                            <button onclick="exit()">Exit</button>
+                        </div>
+                        <div class="deposit-box">
+                            <button class="add-btn d-none" id="add-btn" onclick="add()">ADD</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="stand"></div>
+                    <div class="connector"></div>
+                </div>
+                <div class="bottom">
+                    <div class="legs">
+                        <div class="leg left">
+                            <div class="shine"></div>
+                        </div>
+                        <div class="leg right">
+                            <div class="shine"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </center>
+
+    <script src="Assets/js/main.js"></script>
+</body>
+
+</html>

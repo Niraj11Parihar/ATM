@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Login Page</title>
+    <!-- style.css  -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <!-- utilities.css -->
+    <link rel="stylesheet" href="Assets/css/utilities.css">
+</head>
+<body>
+    <center>
+        <section class="login-page" >
+                <div class="container">
+                    <div class="login-form">
+                        <form onsubmit="return validation()" action="atm.html">
+                            <header>
+                                <h1>Login Page</h1>
+                            </header>
+                            <div class="username-box ">
+                                <label for="username">Enter your username</label>
+                                <input type="username" id="username" class="name-box d-block" placeholder="username">
+                            </div>
+                            <div class="password-box">
+                                <label for="password">Enter your password</label>
+                                <input type="password" id="password" class="pass-box d-block" placeholder="password">
+                            </div>
+                            <button class="login-btn" onclick="validation()" >Login</button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+    </center>
+</body>
+</html>
+
+  <!-- javascript.js -->
+    <script src="Assets/js/main.js"></script>

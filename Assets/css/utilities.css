@@ -1,0 +1,41 @@
+.container{
+    width: 500px;
+    
+}
+
+.d-block{
+    display: block;
+}
+
+.w-5{
+    width: 40%;
+}
+
+.j-content-between{
+    justify-content: space-between;
+}
+
+.j-content-around{
+    justify-content: space-around;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-start{
+    float: inline-start;
+}
+
+.d-none{
+    display: none;
+}
+
